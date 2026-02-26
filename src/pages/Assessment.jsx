@@ -157,7 +157,6 @@ export default function Assessment() {
                   type="text"
                   value={name}
                   onChange={handleNameChange}
-                  placeholder="John Doe"
                   className="w-full px-4 py-3 border-2 border-gray-200 rounded-lg focus:border-indigo-600 focus:outline-none focus:ring-2 focus:ring-indigo-200 transition"
                 />
               </div>
@@ -168,7 +167,6 @@ export default function Assessment() {
                   type="email"
                   value={email}
                   onChange={handleEmailChange}
-                  placeholder="john@example.com"
                   className="w-full px-4 py-3 border-2 border-gray-200 rounded-lg focus:border-indigo-600 focus:outline-none focus:ring-2 focus:ring-indigo-200 transition"
                 />
               </div>
