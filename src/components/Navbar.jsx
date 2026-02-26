@@ -7,7 +7,7 @@ export default function Navbar() {
         <Link to="/" className="flex items-center gap-3 text-2xl font-bold hover:opacity-90 transition transform hover:scale-105">
           <span className="text-4xl">🎯</span>
           <span className="text-gradient" style={{ backgroundClip: 'text', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'white' }}>
-            CareerMatch
+            PsychTest
           </span>
         </Link>
         
